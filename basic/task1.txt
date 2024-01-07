@@ -1,0 +1,4 @@
+Print welcome to user
+ask user to enter name 
+ask user to enter his /her age
+If a person retires at a age of 65 than print the remaining yrs he is going to work.
