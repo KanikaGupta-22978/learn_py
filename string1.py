@@ -141,7 +141,7 @@ string = "My name is Ashutosh Vishwakarma. I am with Kanika Gupta"
 
 '''
 There is a problem in the code.
-It doesn;t consider capital vowels
+It doesnot consider capital vowels
 Solution:
     1. Add five more coditions
     2. Bring the string to lower or upper case and then match
@@ -163,9 +163,31 @@ Som we need to manipulate string case
 '''
 Now use it to rewrite and not miss the capital letters
 '''
-string = "My name is Ashutosh Vishwakarma. I am with Kanika Gupta"
-string=string.lower()
+# string = "My name is Ashutosh Vishwakarma. I am with Kanika Gupta"
+# string=string.lower()
 
-for i in range(0,len(string)):
-    if  (string[i]=='a' or string[i]=='e' or string[i]=='i' or string[i]=='o' or string[i]=='u') :
-        print(string[i])
+# for i in range(0,len(string)):
+#     if  (string[i]=='a' or string[i]=='e' or string[i]=='i' or string[i]=='o' or string[i]=='u') :
+#         print(string[i])
+
+
+
+
+'''
+Strings are immutable that is you cant change the element
+'''
+# s = 'kanika gupta'
+# s[0] = 'K'
+# print(s)
+
+# #this throws an error
+
+'''
+you can enumerate over string with for loop
+'''
+# s = "Kanika Gupta"
+# for i in range(0,len(s)):
+#     print(s[i])
+
+# for i in s:
+#     print(i)
