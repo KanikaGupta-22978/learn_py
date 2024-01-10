@@ -42,12 +42,20 @@ We don't always have to print
 We can take the output as return
 '''
 
-def matrix(a,b,c,d):
-    return a*d-b*c
+# def matrix(a,b,c,d):
+#     return a*d-b*c
 
-r1 = matrix(5,7,8,9)
-r2 = matrix(1,2,3,4)
-print(r1,r2)
+# r1 = matrix(5,7,8,9)
+# r2 = matrix(1,2,3,4)
+# print(r1,r2)
 
+'''
+given x,y,z values where 
+x=workers completing task in y days 
+write a function which returns the number of days required by z workers
+'''
+# def RequiredDays(x,y,z):
+#     return y*x/z
+# print(RequiredDays(2,4,4) )
 
 
