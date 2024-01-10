@@ -191,3 +191,16 @@ you can enumerate over string with for loop
 
 # for i in s:
 #     print(i)
+
+
+'''
+You can split a string based onn separator
+'''
+
+# s = "5,8,9,4,10"
+# nums = s.split(',')
+# print(nums)
+
+s = "5,8,9,4,10"
+nums = s.split(',')
+print(nums[1])

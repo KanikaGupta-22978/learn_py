@@ -31,13 +31,13 @@ You can ennumerate over the elemnts with a for loop
 '''
 lists are mutable
 '''
-nums = [1,5,6,8,9,5,2,87,5]
-print(nums)
-nums[2]=7
-print(nums)
+# nums = [1,5,6,8,9,5,2,87,5]
+# print(nums)
+# nums[2]=7
+# print(nums)
 
-nums.append(35)
-print(nums)
+# nums.append(35)
+# print(nums)
 
 '''
 tuples are like immutable list
@@ -59,3 +59,5 @@ they have a key for each value
 # print(dic[12])
 # print(dic.keys())
 # print(dic.values())
+ 
+
