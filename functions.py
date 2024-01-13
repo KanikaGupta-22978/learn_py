@@ -45,9 +45,9 @@ We can take the output as return
 # def matrix(a,b,c,d):
 #     return a*d-b*c
 
-# r1 = matrix(5,7,8,9)
-# r2 = matrix(1,2,3,4)
-# print(r1,r2)
+# r1 = matrix(5,7,8,9)       # print(matrix(5,7,8,9))
+# r2 = matrix(1,2,3,4)       # print(matrix(1,2,3,4))
+# print(r1,r2)    
 
 '''
 given x,y,z values where 
