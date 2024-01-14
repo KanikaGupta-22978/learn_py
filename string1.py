@@ -202,10 +202,10 @@ you can enumerate over string with for loop
 You can split a string based onn separator
 '''
 
-s = "5,8,9,4,10"
-nums = s.split('9')
-print(nums)
+# s = "5,8,9,4,10"
+# nums = s.split('9')
+# print(nums)
 
-s = "5,8,9,4,10"
-nums = s.split('9')
-print(nums[1])
+# s = "5,8,9,4,10"
+# nums = s.split('9')
+# print(nums[1])
