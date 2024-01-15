@@ -180,7 +180,7 @@ tower of hanoi
 #     move(helper, destination, source,num-1)
 
 
-# move("A","B", "C",3)
+# move("A","B", "C",5)
 
 
 '''
@@ -189,17 +189,42 @@ Minimum path in the given rectangle
 
 #prerequisit: Multi-dimensional Arrays
 
-map = [
-    [0, 6, 9, 4],
-    [0, 8, 2, 0],
-    [4, 0, 2, 0]
-]
+# map = [
+#     [0, 6, 0, 4],
+#     [0, 8, 2, 0],
+#     [8, 0, 2, 0]
+# ]
 
-def minimumPath(mat, path='',weight=0):
-    if len(mat)==0:
-        return path,weight
-    if len(mat)==1 and len(mat[0])==1:
-        return path,weight
+# def rightmove(mat):
+#     me=[]
+#     for i in mat:
+#         me.append(i[1:])
+#     return me
+    
+
+
+# def minimumPath(mat, path='',weight=0):
+#     if len(mat)==0:
+#         return path,weight
+#     if len(mat)==1 and len(mat[0])==1:
+#         return path,weight
+    
+#     rightmat=rightmove(mat)
     
     
-        
+#     pathright,weightright = '',1E10
+#     pathbottom,weightbottom = '',1E10
+    
+    
+#     if len(rightmat[0])>=1:
+#         pathright,weightright=minimumPath(rightmat,path+'r',weight+mat[0][1])
+#     if len(mat)>1:
+#         pathbottom,weightbottom=minimumPath(mat[1:],path+'b',weight+mat[1][0])
+    
+#     if weightright<weightbottom:
+#         return pathright,weightright
+#     else:
+#         return pathbottom,weightbottom
+     
+# print(minimumPath(map))
+
